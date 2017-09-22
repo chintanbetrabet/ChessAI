@@ -1,0 +1,18 @@
+(dp0
+S'modelHeuristic4'
+p1
+S'WOW! WHAT AN IMPROVEMENT! More than 100x! This has the least underestimation of path cost among the 4. This is the manhattan tour; distance taken to cover all treasures. dist(curr, t1) + dist(t1, t2) + dist(t2, t3) etc. This shows how powerful A* is. Turns out this need not be admissible always. We got lucky this time.'
+p2
+sS'modelHeuristic1'
+p3
+S"An easy heuristic. Can't expect much from this. Easily admissible and consistent."
+p4
+sS'modelHeuristic2'
+p5
+S'Better than before. Our agent obviously has to cover at least the distance to closest treasure.'
+p6
+sS'modelHeuristic3'
+p7
+S"Farthest treasure. Agent has to cover all remaining treasures -> agent has to cover the farthest treasure also -> actual cost >= distance to farthest treasure. Farthest >= Closest -> doesn't understimate path cost as much as closest -> can expect better performance"
+p8
+s.
